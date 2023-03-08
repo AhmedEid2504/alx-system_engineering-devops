@@ -7,3 +7,4 @@ ls -lan like ls -la but with user and group ids displayed numerically
 mkdir tmp/my_first_directory/ makes directory in the /tmp/ directory
 mv moves file from directory to another
 rm /tmp/my_first_directory/betty removes the file betty from that directory
+rm -r removes the directory and its content
