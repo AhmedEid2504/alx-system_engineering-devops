@@ -3,3 +3,4 @@ ls displays contents of your current directory
 cd /home changes the working directory to the user's home directory
 ls -l displays current directory contents in a long format
 ls -la displays current directory contents, including hidden files (starting wit .) long format
+ls -lan like ls -la but with user and group ids displayed numerically
