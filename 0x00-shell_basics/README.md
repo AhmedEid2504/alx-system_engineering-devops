@@ -13,3 +13,4 @@ ls -al . .. /boot lists all files (even ones with names beginning with a period 
 file prints type of the file iamafile
 ln -s create sympolic link
 cp -u copy only files that did not exist in the parent
+mv [[:upper:]]* moves all files beggining with uppercase
