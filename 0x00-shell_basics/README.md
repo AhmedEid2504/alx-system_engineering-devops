@@ -16,3 +16,4 @@ cp -u copy only files that did not exist in the parent
 mv [[:upper:]]* moves all files beggining with uppercase
 rm *~ remove all files end with ~ (emacs)
 mkdir -p makes directories with its parents
+ls -xamp where x: list entries by lines instead of by columns / a: do not ignore entries starting with ./ m: fill width with a comma separated list of entries / p: append / indicator to directories
