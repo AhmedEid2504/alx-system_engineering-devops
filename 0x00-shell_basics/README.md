@@ -15,3 +15,4 @@ ln -s create sympolic link
 cp -u copy only files that did not exist in the parent
 mv [[:upper:]]* moves all files beggining with uppercase
 rm *~ remove all files end with ~ (emacs)
+mkdir -p makes directories with its parents
