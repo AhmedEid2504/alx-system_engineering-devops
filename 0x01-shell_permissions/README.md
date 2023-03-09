@@ -10,3 +10,5 @@ chmod ugo+x gives execute permission to all
 chmod 007 gives all permissions to other users but zero to owner and group
 chmod 753 7 all to owner 5 read and execute to group 3 write and execute to other
 chmod --reference=olleh hello sets the mode of hello the same as olleh automatically
+chmod -R +x . adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
+Regular files should not be changed.
