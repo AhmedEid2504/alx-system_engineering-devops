@@ -14,3 +14,4 @@ chmod -R +x . adds execute permission to all subdirectories of the current direc
 Regular files should not be changed.
 mkdir -m 751 my_dir makes the directory with permissions by using -m
 chgrp school hello changes group owner to school for the file hello
+chown vincent:staff * changes the owner to vincent and the group to staff by using : between and * for all files and directories in current directory
