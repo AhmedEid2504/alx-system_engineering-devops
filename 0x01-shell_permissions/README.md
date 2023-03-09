@@ -17,3 +17,4 @@ chgrp school hello changes group owner to school for the file hello
 chown vincent:staff * changes the owner to vincent and the group to staff by using : between and * for all files and directories in current directory
 chown -h vincent:staff _hello the same as the last one only adding -h to be able to changefor sympolic links
 chown --from=guillaume betty hello change the owner of the file hello only if its current user is guillaume
+telnet towel.blinkenlights.nl playes starwars episode on terminal
