@@ -13,3 +13,4 @@ chmod --reference=olleh hello sets the mode of hello the same as olleh automatic
 chmod -R +x . adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 Regular files should not be changed.
 mkdir -m 751 my_dir makes the directory with permissions by using -m
+chgrp school hello changes group owner to school for the file hello
