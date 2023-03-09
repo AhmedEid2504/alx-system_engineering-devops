@@ -7,3 +7,4 @@ chmod u+x adds execute permission to the owner of the file
 chmod ug+x adds execute permission to user and group o+r gives read permission to all
 together ug+x,o+r
 chmod ugo+x gives execute permission to all
+chmod 007 gives all permissions to other users but zero to owner and group
