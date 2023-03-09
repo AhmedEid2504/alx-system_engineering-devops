@@ -5,3 +5,5 @@ chown changes the owner of a file or dir
 touch creates an empty file
 chmod u+x adds execute permission to the owner of the file
 chmod ug+x adds execute permission to user and group o+r gives read permission to all
+together ug+x,o+r
+chmod ugo+x gives execute permission to all
