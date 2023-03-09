@@ -8,3 +8,4 @@ chmod ug+x adds execute permission to user and group o+r gives read permission t
 together ug+x,o+r
 chmod ugo+x gives execute permission to all
 chmod 007 gives all permissions to other users but zero to owner and group
+chmod 753 7 all to owner 5 read and execute to group 3 write and execute to other
